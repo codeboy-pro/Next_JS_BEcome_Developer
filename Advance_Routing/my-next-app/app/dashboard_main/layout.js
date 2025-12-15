@@ -1,10 +1,19 @@
-export default function DashboardMainLayout({feed,stats}){
-    return (
-        <div style={{display:"flex",gap:"20px"}}>
-               <div style={{flex:2}}>{feed}</div>
-               <div style={{flex:1}}>{stats}</div>
+import Link from "next/link"
 
-   
-        </div>
+export default function DashboardMainLayout({tab1,tab2}){
+    
+    return (
+<div>
+<nav style={{marginBottom:"10px"}}>
+<Link href={"/dashboard_main/tab1"}>tab1</Link> |{" "}
+<Link href={"/dashboard_main/tab2"}>tab2</Link>
+
+</nav>
+
+<div>
+    {tab1 }
+    {tab2}
+</div>
+</div>
     )
 }

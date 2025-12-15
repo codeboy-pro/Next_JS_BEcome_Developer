@@ -24,3 +24,13 @@ chapter-2:-
 
 3.Nested routing and dynamic routing 
 4.Mini project.(file colocation)
+
+chapter3:-(Advance Routing):-
+   1.Nested Dynamic Routing.
+   2.Catth all segment and optional catch all
+   3.Routing group private folder.
+   4.Intercepting routes -same and one level up of intercepting routes
+   5.Intercepting routes-Two and root level up of intercepting routes
+   6.Introduction of parallel routes and slotes in next js
+   7.Unmathed routes and default page convention.
+   8.Making your custom Not-found page .
