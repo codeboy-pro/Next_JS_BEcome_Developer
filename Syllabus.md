@@ -45,4 +45,22 @@ chapter3:-(Advance Routing):-
  
        2.client components and which  one to choose (Client vs Server)
        when you use what client or server components
-       
+     
+     
+chapter-5(Backend Route Handler):-
+1.What is Route Handlers in NExt js  and GET endPoint in next js
+2.Creating POST endpoint.
+3.Creating PUT endpoint.
+4.Creating PATCH endpoint.
+5.Creating DELETE  endpoint.
+
+6.Exploring query parameter.
+7.Headers in Next js
+8.cookies in Next js 
+9.Building Notes app setup and database connection.
+10.Notes app- MongoDB Model ,Create API and Add Note Form
+11.Notes App - Fetch & Display Notes with Cards, useState & Toasts
+12. Notes App – Delete Endpoint & Removing Notes
+13. Notes App – Edit Endpoint & Conditional Editing Form
+
+
