@@ -6,7 +6,14 @@ export async function GET() {
     try{
       await dbconnect();
       const notes=await  Note.find({}).sort({createdAt:-1});
-      return NextResponse.json({success:true,data:notes});
+      const serializedNotes = notes.map(note => ({
+          _id: note._id.toString(),
+          title: note.title,
+          content: note.content,
+          createdAt: note.createdAt.toISOString(),
+          updatedAt: note.updatedAt.toISOString()
+      }));
+      return NextResponse.json({success:true,data:serializedNotes});
 
     }catch(error){
 return NextResponse.json({success:false,
@@ -22,7 +29,15 @@ export async function POST(request) {
         const body=await request.json();
         const note=await Note.create(body);
         
-return NextResponse.json({success:true,data:note},{status:201})
+        const serializedNote = {
+            _id: note._id.toString(),
+            title: note.title,
+            content: note.content,
+            createdAt: note.createdAt.toISOString(),
+            updatedAt: note.updatedAt.toISOString()
+        };
+        
+return NextResponse.json({success:true,data:serializedNote},{status:201})
     }catch(error){
 return NextResponse.json({success:false,error: error.message},{status:500})
 

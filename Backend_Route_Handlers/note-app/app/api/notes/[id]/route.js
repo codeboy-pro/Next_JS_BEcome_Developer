@@ -18,8 +18,17 @@ export async function PUT(request,{params}) {
         { status: 404 }
       );
     }
+    
+    const serializedNote = {
+        _id: note._id.toString(),
+        title: note.title,
+        content: note.content,
+        createdAt: note.createdAt.toISOString(),
+        updatedAt: note.updatedAt.toISOString()
+    };
+    
 return NextResponse.json(
-    {success:true,data:note}
+    {success:true,data:serializedNote}
 );
   } catch (error) {
    return NextResponse.json(
