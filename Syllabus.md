@@ -62,5 +62,5 @@ chapter-5(Backend Route Handler):-
 11.Notes App - Fetch & Display Notes with Cards, useState & Toasts
 12. Notes App – Delete Endpoint & Removing Notes
 13. Notes App – Edit Endpoint & Conditional Editing Form
-
+14.Build Modern Next.js Server Side App with Server Actions, Infinite Scroll & Framer Motion Animations
 
