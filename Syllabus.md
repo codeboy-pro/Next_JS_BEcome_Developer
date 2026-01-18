@@ -64,3 +64,12 @@ chapter-5(Backend Route Handler):-
 13. Notes App – Edit Endpoint & Conditional Editing Form
 14.Build Modern Next.js Server Side App with Server Actions, Infinite Scroll & Framer Motion Animations
 
+
+chapter:-6 (16. Core Functions and Hooks in Next.js):-
+          01. Caching & Revalidate Made Easy  - Next.js Extended Fetch API
+          02. Handling 404s with the notFound() Function in Next.js
+          03. useParam Hook
+          04. usePathname Hook
+          05. useQueryParams Hook
+          06. useRouter Hook – push, replace, back & forward , prefetch
+          07. Redirect Function in Next.js
