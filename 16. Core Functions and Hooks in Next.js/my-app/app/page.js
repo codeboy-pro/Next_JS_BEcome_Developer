@@ -1,3 +1,4 @@
+import { redirect } from "next/navigation";
 import Image from "next/image";
 
 export default async function Home() {
@@ -11,6 +12,12 @@ export default async function Home() {
   //Cache for 10 seconds , the fetch fresh data
 
   // const data = await response.json();
+
+const isLogtgedIn=true;
+if(!isLogtgedIn){
+  return redirect('/login');
+}
+
 
 const [fresh,cached,revalidate]=await Promise.all([
   //Always fetch
