@@ -73,3 +73,16 @@ chapter:-6 (16. Core Functions and Hooks in Next.js):-
           05. useQueryParams Hook
           06. useRouter Hook – push, replace, back & forward , prefetch
           07. Redirect Function in Next.js
+          
+    chapter:-7(17. Server Actions & App Optimizations):-
+       01. Deep Dive into Server Actions Why They Outshine API Routes
+       02. Mastering Fonts in Next.js Google & Local Made Easy
+       03. Forms in Next.js Prefetching, Navigation & Server Actions
+       04. Optimized Images in Next.js with the Image Component
+       05. Next.js Link & Script – Beyond a and script
+       06. Contact Form Project – Introduction, Setup & Database Connection
+       07. Contact Form Project – Contact Model, ShadcnUI & Form UI
+       08. Contact Form Project – Create Contact Server Action & Form Integration
+       09. Contact Form Project – Get Contact List & Render in Server Component
+       10. Contact Form Project – Update Contact Status & Revalidate Path
+       11. Contact Form Project – Contact Status Component, unstable_cache & Revalidate Tag
