@@ -87,3 +87,4 @@ chapter:-6 (16. Core Functions and Hooks in Next.js):-
        10. Contact Form Project – Update Contact Status & Revalidate Path
        11. Contact Form Project – Contact Status Component, unstable_cache & Revalidate Tag.
        
+       chapter-8(
