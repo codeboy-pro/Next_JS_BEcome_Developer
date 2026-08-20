@@ -74,7 +74,7 @@ chapter:-6 (16. Core Functions and Hooks in Next.js):-
           06. useRouter Hook – push, replace, back & forward , prefetch
           07. Redirect Function in Next.js
           
-    chapter:-7(17. Server Actions & App Optimizations):-
+chapter:-7(17. Server Actions & App Optimizations):-
        01. Deep Dive into Server Actions Why They Outshine API Routes
        02. Mastering Fonts in Next.js Google & Local Made Easy
        03. Forms in Next.js Prefetching, Navigation & Server Actions
@@ -87,4 +87,24 @@ chapter:-6 (16. Core Functions and Hooks in Next.js):-
        10. Contact Form Project – Update Contact Status & Revalidate Path
        11. Contact Form Project – Contact Status Component, unstable_cache & Revalidate Tag.
        
-       chapter-8(
+chapter-8(18.Middleware , Metadata and SEO):
+       01. Static vs Dynamic Metadata Best Practices for Layouts & Pages
+       02. Title Metadata Deep Dive Default, Template & Absolute Properties Explained
+       03. How to Add and Update Favicons in Next.js Projects
+       04. Static Open Graph Image What It Is, Why It Matters, Pros & Cons
+       05. Dynamic Open Graph Images in Next.js Building an OG API with nextog
+       
+chapter-9:-(19. State Management & Data Fetching)
+     01. Introduction to Tanstack Query and Initializing in Query provider in Nextjs App
+     02. useQuery in TanStack Query – Simplifies data fetching by removing boilerplate
+     03. useMutation in TanStack Query – Mutations, Query Invalidation, and Optimistic UI
+     04. 67. What is Hydration & Caching in Next.js - a quick guide
+     05. ToDo App  – DB, Schema & Query Provider Setup
+     06. ToDo App – Add Todo with Zod Validation & Mutation Hooks
+     07. ToDo App – Get & Display Todos with Zustand and TanStack Query
+     08. ToDo App – Mark Todo Completed with Mutations
+     09. ToDo App – Delete Todo with Mutations.
+
+
+chapter-10(database and ORM integration):
+ 
